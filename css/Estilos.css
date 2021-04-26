@@ -1,0 +1,79 @@
+body{
+    background-color: whitesmoke;
+}
+
+section.contenido{
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(197, 193, 193);
+    place-items: center;
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    text-align: center;
+    
+}
+
+#cabecera{
+    width: 100%;
+    font-size: 16px;
+    height: 50px;
+    line-height: 1px;
+    display: block;
+    padding: 3px 5px 2px;
+    background-color: whitesmoke;
+    margin-bottom: 2px;
+    margin-top: 2px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(197, 193, 193);
+
+}
+
+#Indice{
+    display: block;
+    height: 1042px;
+    width: 170px;
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-right-color: rgb(197, 193, 193);
+    float: left;
+
+}
+
+h1{
+    color: rgb(50, 50, 202);
+    text-align: left;
+}
+
+p{
+    color: black;
+}
+
+section h2{
+    color: rgb(5, 5, 71)
+}
+
+a:link, a:visited, a:hover{
+    text-decoration: underline;
+    text-decoration-color: black;
+    font: algerian;
+    color: black;
+}
+
+footer{
+    width: 100%;
+    font-size: 16px;
+    height: 100px;
+    line-height: 1px;
+    display: block;
+    padding: 3px 5px 2px;
+    background-color: rgb(82, 82, 240);
+    margin-bottom: 2px;
+    margin-top: 2px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(197, 193, 193);
+    float: none;
+
+}
