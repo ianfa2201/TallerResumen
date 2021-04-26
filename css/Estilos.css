@@ -2,7 +2,7 @@ body{
     background-color: whitesmoke;
 }
 
-section.contenido{
+div.contenido{
     border-bottom-width: 1px;
     border-bottom-style: solid;
     border-bottom-color: rgb(197, 193, 193);
@@ -11,7 +11,8 @@ section.contenido{
     justify-content: left;
     flex-direction: column;
     text-align: center;
-    
+    padding: 4rem;
+    width: 75%;  
 }
 
 #cabecera{
@@ -27,18 +28,34 @@ section.contenido{
     border-bottom-width: 1px;
     border-bottom-style: solid;
     border-bottom-color: rgb(197, 193, 193);
+    position: fixed;
+    top: 0;
 
 }
 
 #Indice{
     display: block;
-    height: 1042px;
+    height: 500px;
     width: 170px;
     border-right-width: 1px;
     border-right-style: solid;
     border-right-color: rgb(197, 193, 193);
     float: left;
+    position: fixed;
+    padding-top: 10rem;
+    top: 58px;
+}
 
+aside{
+    display: block;
+    height: 1700px;
+    width: 170px;
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-right-color: rgb(197, 193, 193);
+    float: left;
+    padding-top: 10rem;
+    top: 58px;
 }
 
 h1{
@@ -50,8 +67,10 @@ p{
     color: black;
 }
 
-section h2{
-    color: rgb(5, 5, 71)
+div h2{
+    color: rgb(5, 5, 71);
+    font-size: xx-large;
+    text-align: left;
 }
 
 a:link, a:visited, a:hover{
@@ -62,18 +81,17 @@ a:link, a:visited, a:hover{
 }
 
 footer{
-    width: 100%;
+    width: 1490px;
     font-size: 16px;
     height: 100px;
     line-height: 1px;
     display: block;
-    padding: 3px 5px 2px;
     background-color: rgb(82, 82, 240);
     margin-bottom: 2px;
     margin-top: 2px;
     border-bottom-width: 1px;
     border-bottom-style: solid;
     border-bottom-color: rgb(197, 193, 193);
-    float: none;
-
+    bottom: 0;
 }
+
