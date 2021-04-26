@@ -6,14 +6,16 @@ div.contenido{
     border-bottom-width: 1px;
     border-bottom-style: solid;
     border-bottom-color: rgb(197, 193, 193);
-    place-items: center;
+    place-items: left;
     display: flex;
-    justify-content: left;
+    justify-content: center;
     flex-direction: column;
     text-align: center;
     padding: 4rem;
-    width: 75%;  
+    width: 75%; 
+    background-color: aqua; 
 }
+
 
 #cabecera{
     width: 100%;
@@ -35,7 +37,7 @@ div.contenido{
 
 #Indice{
     display: block;
-    height: 500px;
+    height: 700px;
     width: 170px;
     border-right-width: 1px;
     border-right-style: solid;
@@ -48,7 +50,7 @@ div.contenido{
 
 aside{
     display: block;
-    height: 1700px;
+    height: 1900px;
     width: 170px;
     border-right-width: 1px;
     border-right-style: solid;
@@ -65,6 +67,7 @@ h1{
 
 p{
     color: black;
+    text-align: left;
 }
 
 div h2{
@@ -80,8 +83,14 @@ a:link, a:visited, a:hover{
     color: black;
 }
 
+div img{
+    align-items: center;
+    height: 400px;
+    width: 700px;
+}
+
 footer{
-    width: 1490px;
+    width: 1340px;
     font-size: 16px;
     height: 100px;
     line-height: 1px;
