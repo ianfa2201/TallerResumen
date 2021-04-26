@@ -10,10 +10,12 @@ div.contenido{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    text-align: center;
-    padding: 4rem;
+    padding-left: 2rem;
     width: 75%; 
-    background-color: aqua; 
+}
+
+#Introducción{
+    padding-top: 3rem;
 }
 
 
@@ -24,7 +26,7 @@ div.contenido{
     line-height: 1px;
     display: block;
     padding: 3px 5px 2px;
-    background-color: whitesmoke;
+    background-color: rgb(55, 108, 253);
     margin-bottom: 2px;
     margin-top: 2px;
     border-bottom-width: 1px;
@@ -32,7 +34,7 @@ div.contenido{
     border-bottom-color: rgb(197, 193, 193);
     position: fixed;
     top: 0;
-
+    left: 0;
 }
 
 #Indice{
@@ -61,19 +63,25 @@ aside{
 }
 
 h1{
-    color: rgb(50, 50, 202);
+    color: whitesmoke;
     text-align: left;
 }
 
 p{
     color: black;
     text-align: left;
+    font-size: large;
 }
 
 div h2{
-    color: rgb(5, 5, 71);
-    font-size: xx-large;
+    color: rgb(7, 7, 92);
+    font-size: x-large;
     text-align: left;
+}
+
+div > ul > li{
+    font-weight: bold;
+    text-decoration: underline;
 }
 
 a:link, a:visited, a:hover{
@@ -85,8 +93,8 @@ a:link, a:visited, a:hover{
 
 div img{
     align-items: center;
-    height: 400px;
-    width: 700px;
+    height: 300px;
+    width: 600px;
 }
 
 footer{
