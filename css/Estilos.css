@@ -1,64 +1,60 @@
+*{
+    box-sizing: border-box;
+    float: initial;
+}
+
 body {
     background-color: whitesmoke;
     padding: 0;
     margin: 0;
+    position: relative;
+    width: 85%;
+    clear: left;
 }
+
+
+#cabecera {
+    width: 100%;
+    font-size: 16px;
+    height: 60px;
+    line-height: 1px;
+    display: flex;
+    background-color: rgb(55, 108, 253);
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(197, 193, 193);
+    position: fixed;
+    padding: 8px 0px;
+    justify-content: space-between;
+}
+
+nav{
+    display: flex;
+    place-items: center;
+}
+
+
+
+#titulo:link, #titulo:visited{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+
 
 div.contenido {
     border-bottom-width: 1px;
     border-bottom-style: solid;
     border-bottom-color: rgb(197, 193, 193);
-    place-items: left;
     display: flex;
     justify-content: center;
     flex-direction: column;
     width: 85%;
-    padding-left: 0;
     padding-top: 3em;
+    box-sizing: border-box;
+    float: right;
 }
 
-#cabecera {
-    width: 100%;
-    font-size: 16px;
-    height: 50px;
-    line-height: 1px;
-    display: block;
-    padding: 3px 5px 2px;
-    background-color: rgb(55, 108, 253);
-    margin-bottom: 2px;
-    margin-top: 2px;
-    border-bottom-width: 1px;
-    border-bottom-style: solid;
-    border-bottom-color: rgb(197, 193, 193);
-    position: fixed;
-    padding: 0;
-    margin: 0;
-}
-
-#Indice {
-    display: block;
-    height: 2500px;
-    width: 170px;
-    float: left;
-    position: fixed;
-    padding-top: 10rem;
-    top: 58px;
-}
-
-aside {
-    display: block;
-    height: 2500px;
-    width: 170px;
-    float: left;
-    padding-top: 10rem;
-    top: 58px;
-}
-
-h1 {
-    color: whitesmoke;
-    text-align: left;
-    padding-left: 3px;
-}
 
 div p {
     color: black;
@@ -82,23 +78,27 @@ div li {
     font-size: 18px;
 }
 
-a:link,
-a:visited,
-a:hover {
-    font: algerian;
+.boton{
+    padding-top: 18px;
+}
+
+a:link.boton,
+a:visited.boton {
+    font-family: 'Times New Roman', Times, serif;
     display: block;
-    flex-direction: column;
     background-color: rgb(55, 108, 253);
-    border: 1px solid black;
     color: white;
     text-decoration: none;
     text-align: center;
-    margin-bottom: 1px;
     width: 150px;
-    height: 30px;
-    margin-bottom: 10px;
-    border-style: outset;
-    margin-left: 5px;
+    height: 45px;
+    border-left: 1px solid slateblue;
+    border-right: 1px solid slateblue;
+}
+
+a:hover.boton {
+    background-color: rgb(37, 27, 180);
+    text-decoration: underline;
 }
 
 div img {
@@ -107,13 +107,15 @@ div img {
     width: 600px;
 }
 
-footer {
+/*#pie {
     text-align: center;
     background: cornflowerblue;
-    padding: 0;
-    margin: 0;
-}
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    top: 7000px;
+}*/
 
 #Recomendaciones {
-    padding-top: 5rem;
+    padding-top: 3rem;
 }
