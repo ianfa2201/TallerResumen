@@ -1,4 +1,4 @@
-*{
+* {
     box-sizing: border-box;
     float: initial;
 }
@@ -8,10 +8,9 @@ body {
     padding: 0;
     margin: 0;
     position: relative;
-    width: 85%;
+    width: 100%;
     clear: left;
 }
-
 
 #cabecera {
     width: 100%;
@@ -28,33 +27,33 @@ body {
     justify-content: space-between;
 }
 
-nav{
+nav {
     display: flex;
     place-items: center;
+    padding-right: 5px;
 }
 
-
-
-#titulo:link, #titulo:visited{
+#titulo:link,
+#titulo:visited {
+    padding-top: 1px;
     text-decoration: none;
     color: whitesmoke;
 }
-
-
 
 div.contenido {
     border-bottom-width: 1px;
     border-bottom-style: solid;
     border-bottom-color: rgb(197, 193, 193);
     display: flex;
-    justify-content: center;
+    /*justify-content: center;*/
     flex-direction: column;
     width: 85%;
     padding-top: 3em;
     box-sizing: border-box;
+    padding-left: 2em;
     float: right;
+    padding-right: 4em;
 }
-
 
 div p {
     color: black;
@@ -78,7 +77,7 @@ div li {
     font-size: 18px;
 }
 
-.boton{
+.boton {
     padding-top: 18px;
 }
 
@@ -107,15 +106,25 @@ div img {
     width: 600px;
 }
 
-/*#pie {
-    text-align: center;
+#Pie {
     background: cornflowerblue;
-    position: fixed;
     bottom: 0;
-    width: 100%;
-    top: 7000px;
-}*/
+    height: 50px;
+    width: 100% !important;
+    margin: 0;
+    padding: 0;
+}
+
+#Pie>p {
+    text-align: center;
+    margin: 0;
+    padding: 15px;
+}
 
 #Recomendaciones {
-    padding-top: 3rem;
+    padding-top: 4rem;
+}
+
+#Conclusión {
+    border-bottom: none;
 }
