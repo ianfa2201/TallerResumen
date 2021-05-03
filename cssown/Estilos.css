@@ -4,12 +4,17 @@
 }
 
 body {
-    background-color: whitesmoke;
+    background-color: rgb(26, 24, 24);
     padding: 0;
     margin: 0;
     position: relative;
     width: 100%;
     clear: left;
+}
+
+h1 {
+    font-size: 30px;
+    margin: 10px;
 }
 
 #cabecera {
@@ -23,15 +28,15 @@ body {
     border-bottom-style: solid;
     border-bottom-color: rgb(197, 193, 193);
     position: fixed;
-    padding: 8px 0px;
     justify-content: space-between;
 }
 
 nav {
     display: flex;
     place-items: center;
-    padding-right: 5px;
+    padding-right: 30px;
     font-family: sans-serif;
+    margin: 10px;
 }
 
 #titulo:link,
@@ -39,6 +44,7 @@ nav {
     padding-top: 1px;
     text-decoration: none;
     color: whitesmoke;
+    font-size: 14px;
 }
 
 div.contenido {
@@ -49,7 +55,7 @@ div.contenido {
     /*justify-content: center;*/
     flex-direction: column;
     width: 85%;
-    padding-top: 3em;
+    padding-top: 4em;
     box-sizing: border-box;
     padding-left: 2em;
     float: right;
@@ -57,15 +63,17 @@ div.contenido {
 }
 
 div p {
-    color: black;
+    color: whitesmoke;
     text-align: left;
     font-size: large;
 }
 
 div h2 {
-    color: rgb(7, 7, 92);
+    color: rgb(16, 16, 190);
     font-size: x-large;
     text-align: left;
+    margin-bottom: 15px;
+    margin-top: 10px;
 }
 
 div em {
@@ -76,15 +84,12 @@ div em {
 
 div li {
     font-size: 18px;
-}
-
-.boton {
-    padding-top: 18px;
+    color: whitesmoke;
 }
 
 a:link.boton,
 a:visited.boton {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Arial, Helvetica, sans-serif;
     display: block;
     background-color: rgb(55, 108, 253);
     color: white;
@@ -94,17 +99,19 @@ a:visited.boton {
     height: 45px;
     border-left: 1px solid slateblue;
     border-right: 1px solid slateblue;
+    margin: 10px 0px;
+    padding-top: 20px;
 }
 
 a:hover.boton {
-    background-color: rgb(37, 27, 180);
-    text-decoration: underline;
+    background-color: rgb(52, 37, 250);
 }
 
 div img {
     align-items: center;
     height: 300px;
     width: 600px;
+    margin: 15px;
 }
 
 #Pie {
@@ -118,8 +125,7 @@ div img {
 
 #Pie>p {
     text-align: center;
-    margin: 0;
-    padding: 15px;
+    margin: 10px;
 }
 
 #Recomendaciones {
