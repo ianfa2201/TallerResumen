@@ -31,6 +31,7 @@ nav {
     display: flex;
     place-items: center;
     padding-right: 5px;
+    font-family: inherit;
 }
 
 #titulo:link,
